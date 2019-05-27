@@ -1,0 +1,8 @@
+<template name="starTemplate">
+  <view class='star'>
+  <block wx:for="{{stars}}" wx:key="" wx:for-item="num">
+    <image wx:if="{{num==1}}" class='star-img' src='/images/view/star.jpg'></image>
+    <image wx:else class='star-img' src='/images/view/star-no.png'></image>
+  </block>
+  </view>
+</template>

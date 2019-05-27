@@ -1,0 +1,11 @@
+<view class='container'>
+  <view class='userInfo'>
+    <image class='view-img' src='/images/view/1.jpg'></image>
+    <text class='view-username'>zhuangzhuangchen</text>
+  </view>
+  <view class='view-text'>
+    <view class='view-content'>
+        <text bindtap='viewTap'>开启奇幻之旅</text>
+    </view>
+  </view> 
+</view>

@@ -1,0 +1,39 @@
+.article-top{
+  display: flex;
+  margin-top: 10px;
+}
+.article-top-img{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  margin:0 20px;
+}
+.article-top-text{
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 15px;
+}
+.article-title{
+  margin: 20px 20px;
+  font-size: 16px;
+}
+.article-middle{
+  margin-bottom: 20px;
+}
+.article-middle-img{
+  width: 100%;
+}
+.article-content{
+  padding: 10px 15px;
+  font-size: 14px;
+  text-indent:2em;
+}
+.article-footer{
+  margin: 20px;
+  color: #bbb;
+}
+.article-footer image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0 10px;
+}

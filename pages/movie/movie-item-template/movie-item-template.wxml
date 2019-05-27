@@ -1,0 +1,14 @@
+<import src="../star-template/star-template.wxml" />
+<template name="movieItemTemplate">
+  <view class='movie-item'>
+    <view class='movie-item-body'>
+      <image class='movie-item-img' src='{{coverImg}}'></image>
+      <view class='movie-item-content'>
+        <text>{{title}}</text>
+      </view>
+      <view>
+        <template is="starTemplate" data="{{stars:stars}}" />
+      </view>
+    </view>
+  </view>
+</template>

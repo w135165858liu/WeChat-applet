@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/article/article",
+    "pages/movie/movie-more/movie-more",
+    "pages/article-detail/article-detail",
+    "pages/movie/movie",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor":"#F66F13"
+  },
+  "tabBar": {
+    "selectedColor":"#f21",
+    "position":"top",
+    "list": [
+      {
+        "pagePath": "pages/article/article",
+        "text": "文章"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影"
+      }
+    ]
+  }
+}

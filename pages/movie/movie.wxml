@@ -1,0 +1,16 @@
+<!--pages/movie/movie.wxml-->
+<import src="movie-list-template/movie-list-template.wxml" />
+<view class='movie'>
+  <template 
+  is="movieListTemplate" 
+  data="{{movies:inTheaters,tag:setInTheatersTag,tagType:inTheatersTagType}}" 
+  />
+  <template 
+  is="movieListTemplate" 
+  data="{{movies:comingSoon,tag:setComingSoonTag,tagType:comingSoonTagType}}" 
+  />
+  <template 
+  is="movieListTemplate" 
+  data="{{movies:top250,tag:setTop250Tag,tagType:top250TagType}}"
+  />
+</view>

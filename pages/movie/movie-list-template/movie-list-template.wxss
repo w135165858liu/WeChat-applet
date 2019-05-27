@@ -1,0 +1,16 @@
+@import '../movie-item-template/movie-item-template.wxss';
+.movie-list{
+  margin-bottom: 15px;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  
+}
+.movie-item-title{
+  padding: 10px 15px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

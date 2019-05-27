@@ -1,0 +1,23 @@
+<template name="articleTemplate">
+  <view class='article-item'>
+    <view class='article-top'>
+      <image class='article-top-img' src='{{item.topimg}}'></image>
+      <text class='article-top-text'>{{item.topdate}}</text>
+    </view>
+    <view class='article-title'>
+      <text>{{item.title}}</text>
+    </view>
+    <view class='article-middle'>
+      <image class='article-middle-img' src='{{item.middleimg}}'></image>
+    </view>
+    <view class='article-content'>
+      <text>{{item.middlecontent}}</text>
+    </view>
+    <view class='article-footer'>
+      <image class='article-footer-start' src='{{item.footerstart}}'></image>
+      <text>{{item.startnum}}</text>
+      <image class='article-footer-eyes' src='{{item.footereyes}}'></image>
+      <text>{{item.eyesnum}}</text>
+    </view>
+  </view> 
+</template>

@@ -1,0 +1,24 @@
+<import src="../article-template/article-template.wxml" />
+<view>
+  <swiper class='swiper-carousel'  
+  autoplay="true" interval="3000" duration="1000"
+  indicator-dots="true" indicator-color="#ccc" indicator-active-color="red"
+  >
+    <swiper-item class="carousel-item">
+      <image src='../../images/view/a1.jpg' width="100%" height="400" />
+    </swiper-item>
+    <swiper-item class="carousel-item">
+      <image src='../../images/view/a2.jpg' />
+    </swiper-item>
+    <swiper-item class="carousel-item">
+      <image src='../../images/view/a3.jpg' />
+    </swiper-item>
+  </swiper>
+  <view class='article-box'>
+    <block wx:for="{{articles}}" wx:for-index="idx" wx:key="idx" wx:for-item="item">
+        <view catchtap='linkToDetail' data-article-id="{{item.articleId}}">
+           <template is="articleTemplate" data="{{item:item}}" />
+        </view>
+     </block>
+  </view>
+</view>

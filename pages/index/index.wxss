@@ -1,0 +1,34 @@
+page{
+  background: sandybrown;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200rpx;
+}
+.view-img{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.view-username{
+  font-size: 14px;
+}
+.view-text{
+  margin-top: 400rpx;
+  padding: 10rpx;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid #2F2B2B;
+  text-align: center;
+  border-radius: 10rpx;
+  width: 240rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}

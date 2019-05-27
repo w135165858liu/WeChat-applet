@@ -1,0 +1,19 @@
+<view>
+  <view class='detail-img-box'>
+    <image class='detail-img-big ' src='{{image}}'></image>
+    <image catchtap='tapMusic' class='detail-img-small' src='/images/view/icon3.png'></image>
+  </view>
+  <view class='detail-author'>
+    <image class='detail-author-img' src='/images/view/a1.jpg'></image>
+    <text class='detail-author-text'>zhuangzhuangchen 发表于 2018-09-20</text>
+  </view>
+  <view class='detail-share'>
+    <image wx:if="{{currentIsCollented}}" catchtap='tapCollection' class='detail-share-keep' src='/images/view/icon4-1.jpg'></image>
+    <image wx:else catchtap='tapCollection' class='detail-share-keep' src='/images/view/icon4.jpg'></image>
+    <image catchtap='tapShare' class='detail-share-sharing' src='/images/view/icon5.png'></image>
+    <view class='detail-share-line'></view>
+  </view>
+  <view class='detail-content'>
+    <text>content......</text>
+  </view>
+</view>
